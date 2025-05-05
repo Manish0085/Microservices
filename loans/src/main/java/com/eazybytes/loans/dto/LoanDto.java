@@ -11,7 +11,7 @@ public class LoanDto {
 
     @NotEmpty(message = "Loan number cannot be null")
     @Pattern(regexp = "^$|[0-9]{12}", message = "Loan number must be 12 digits")
-    private Long loanNumber;
+    private String loanNumber;
 
     @NotEmpty(message = "Mobile number cannot be null or empty")
     @Pattern(regexp = "^$|[0-9]{10}", message = "Mobile number must be 10 digit")
@@ -29,11 +29,11 @@ public class LoanDto {
     @PositiveOrZero(message = "Total outstanding amount must be grater or equal to zero")
     private double outstandingAmount;
 
-    public Long getLoanNumber() {
+    public String getLoanNumber() {
         return loanNumber;
     }
 
-    public void setLoanNumber(Long loanNumber) {
+    public void setLoanNumber(String loanNumber) {
         this.loanNumber = loanNumber;
     }
 

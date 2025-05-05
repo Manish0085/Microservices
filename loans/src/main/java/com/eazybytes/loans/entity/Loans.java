@@ -15,7 +15,7 @@ public class Loans {
     private String mobileNumber;
 
     @Column(name = "loan_number")
-    private Long loanNumber;
+    private String loanNumber;
 
     @Column(name = "loan_type")
     private String loanType;
@@ -45,11 +45,11 @@ public class Loans {
         this.mobileNumber = mobileNumber;
     }
 
-    public Long getLoanNumber() {
+    public String getLoanNumber() {
         return loanNumber;
     }
 
-    public void setLoanNumber(Long loanNumber) {
+    public void setLoanNumber(String loanNumber) {
         this.loanNumber = loanNumber;
     }
 
