@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: "configserver"
+
+  profiles:
+#    active: native
+    active: git
+
+  cloud:
+    config:
+      server:
+#        native:
+#          search-locations: "classpath:/config"
+#          search-locations: "file:///C:/Users/manis/OneDrive/ドキュメント/config"
+        git:
+          uri: "https://github.com/Manish0085/eazybank-config.git"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+
+server:
+  port: 8071
