@@ -1,8 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;D:/Project&quot;
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="801caa11-3a99-41f1-acac-a6df41b502ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Section-4/accounts/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/.idea/MicroService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/card/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/card/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/card/card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/card/card/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/card/card/src/main/java/com/eazybytes/card/dto/CardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/card/card/src/main/java/com/eazybytes/card/dto/CardDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/card/card/src/main/java/com/eazybytes/card/dto/ErrorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/card/card/src/main/java/com/eazybytes/card/dto/ErrorResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/card/card/src/main/java/com/eazybytes/card/dto/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/card/card/src/main/java/com/eazybytes/card/dto/ResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/card/card/src/main/java/com/eazybytes/card/entity/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/card/card/src/main/java/com/eazybytes/card/entity/Cards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/loans/src/main/java/com/eazybytes/loans/dto/ErrorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/loans/src/main/java/com/eazybytes/loans/dto/ErrorResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-4/loans/src/main/java/com/eazybytes/loans/dto/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-4/loans/src/main/java/com/eazybytes/loans/dto/ResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/accounts/src/main/java/com/eazybytes/accounts/dto/ContactDetailsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/accounts/src/main/java/com/eazybytes/accounts/dto/ContactDetailsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/card/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/card/src/main/java/com/eazybytes/card/dto/ContactDetailsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/card/src/main/java/com/eazybytes/card/dto/ContactDetailsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/card/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/card/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/loans/src/main/java/com/eazybytes/loans/dto/ContactDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/loans/src/main/java/com/eazybytes/loans/dto/ContactDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/loans/src/main/java/com/eazybytes/loans/dto/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/loans/src/main/java/com/eazybytes/loans/dto/ResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/loans/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Manish0085"
   }
-}</component>
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Manish0085/Microservices.git",
+    "accountId": "2a1d5e1e-e148-471b-9f53-883c6b478f87"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2x8IrNlgQwbMW0zEP79cSORDp94" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountsApplication.executor": "Run",
+    "Application.CardApplication.executor": "Run",
+    "Application.ConfigserverApplication.executor": "Run",
+    "Maven.accounts [clean,install].executor": "Run",
+    "Maven.accounts [clean].executor": "Run",
+    "Maven.card [clean,install].executor": "Run",
+    "Maven.configserver [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/MicroService/Section-6/v2-spring-cloud-config/loans"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AccountsApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.accounts.AccountsApplication" />
+      <module name="accounts (3)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.accounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.card.CardApplication" />
+      <module name="card (3)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.card.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="801caa11-3a99-41f1-acac-a6df41b502ac" name="Changes" comment="" />
+      <created>1747313471970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747313471970</updated>
+    </task>
+    <servers />
+  </component>
 </project>
