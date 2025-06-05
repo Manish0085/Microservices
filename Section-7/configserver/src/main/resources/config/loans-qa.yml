@@ -1,0 +1,11 @@
+build:
+  version: "8.0"
+
+loans:
+  message: "Welcome to the EazyBank loan related service"
+  contactDetails:
+    name: "Ram Sharma = QA lead"
+    email: "ram@eazyBank.com"
+  onCallSupport:
+    -(444) 851-1235
+    -(444) 969-3241

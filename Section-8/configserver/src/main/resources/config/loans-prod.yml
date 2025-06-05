@@ -1,0 +1,11 @@
+build:
+  version: "1.9"
+
+loans:
+  message: "Welcome to the EazyBank loan related service"
+  contactDetails:
+    name: "Arpit Jaiswal - Prod Head"
+    email: "arpit@eazybank.com"
+  onCallSupport:
+    - (333) 123-7413
+    - (333) 745-9632

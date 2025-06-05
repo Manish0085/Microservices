@@ -1,0 +1,11 @@
+build:
+  version: "5.0"
+
+cards:
+  message: "Welcome to the EazyBank card related service"
+  contactDetails:
+    name: "Amit Kumar - PROD Head"
+    email: "amit@eazybank.com"
+  onCallSupport:
+    - (555) 785-9632
+    - (555) 521-9732

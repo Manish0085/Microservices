@@ -1,0 +1,12 @@
+
+build:
+  version: 1.0
+
+loans:
+  message: "Welcome to the EazyBank loan related service"
+  contactDetails:
+    name: "John Doe: Dev"
+    email: "john@eazybank.com"
+  onCallSupport:
+    - (888) 159-8569
+    - (888) 652-7895
