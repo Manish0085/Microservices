@@ -1,0 +1,13 @@
+
+build:
+  version: "1.1"
+
+
+cards:
+  message: "Welcome to the EazyBank card related service"
+  contactDetails:
+    name: "John Doe - dev"
+    email: "john@eazybank.com"
+  onCallSupport:
+    - (333) 174-4587
+    - (333) 192-1236
