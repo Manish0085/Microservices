@@ -1,51 +1,25 @@
-package com.eazybytes.cards.entity;
-
-import com.fasterxml.jackson.databind.ser.Serializers;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
-@Entity
-public class Cards extends BaseEntity {
+package com.eazybytes.cards.dto;
 
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long cardId;
+public class CardDto {
 
     private String mobileNumber;
-
     private String cardNumber;
-
     private String cardType;
-
     private int totalLimit;
-
     private int amountUsed;
-
     private int availableAmount;
 
-    public Cards(){
+    public CardDto(){
 
     }
-
-    public Cards(Long cardId, String mobileNumber, String cardNumber, String cardType, int totalLimit, int amountUsed, int availableAmount) {
-        this.cardId = cardId;
+    public CardDto(String mobileNumber, String cardNumber, String cardTyoe, int totalLimit, int amountUsed, int availableAmount) {
         this.mobileNumber = mobileNumber;
         this.cardNumber = cardNumber;
-        this.cardType = cardType;
+        this.cardType = cardTyoe;
         this.totalLimit = totalLimit;
         this.amountUsed = amountUsed;
         this.availableAmount = availableAmount;
-    }
-
-    public Long getCardId() {
-        return cardId;
-    }
-
-    public void setCardId(Long cardId) {
-        this.cardId = cardId;
     }
 
     public String getMobileNumber() {
