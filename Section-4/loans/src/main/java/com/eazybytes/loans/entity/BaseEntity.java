@@ -1,5 +1,4 @@
-package com.eazybytes.cards.entity;
-
+package com.eazybytes.loans.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
@@ -16,21 +15,30 @@ import java.time.LocalDateTime;
 @EntityListeners(AuditingEntityListener.class)
 public class BaseEntity {
 
-    @Column(updatable = false)
-    @CreatedDate
-    private LocalDateTime createdAt;
-
     @CreatedBy
     @Column(updatable = false)
     private String createdBy;
+
+    @CreatedDate
+    @Column(updatable = false)
+    private LocalDateTime createdAt;
+
+    @LastModifiedBy
+    @Column(insertable = false)
+    private String updatedBy;
 
     @LastModifiedDate
     @Column(insertable = false)
     private LocalDateTime updatedAt;
 
-    @LastModifiedBy
-    @Column(insertable = false)
-    private String updatedBy;
+
+    public String getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy) {
+        this.createdBy = createdBy;
+    }
 
     public LocalDateTime getCreatedAt() {
         return createdAt;
@@ -40,12 +48,12 @@ public class BaseEntity {
         this.createdAt = createdAt;
     }
 
-    public String getCraetedBy() {
-        return createdBy;
+    public String getUpdatedBy() {
+        return updatedBy;
     }
 
-    public void setCraetedBy(String craetedBy) {
-        this.createdBy = craetedBy;
+    public void setUpdatedBy(String updatedBy) {
+        this.updatedBy = updatedBy;
     }
 
     public LocalDateTime getUpdatedAt() {
@@ -56,11 +64,13 @@ public class BaseEntity {
         this.updatedAt = updatedAt;
     }
 
-    public String getUpdatedBy() {
-        return updatedBy;
-    }
-
-    public void setUpdatedBy(String updatedBy) {
-        this.updatedBy = updatedBy;
+    @Override
+    public String toString() {
+        return "BaseEntity{" +
+                "createdBy='" + createdBy + '\'' +
+                ", createdAt=" + createdAt +
+                ", updatedBy='" + updatedBy + '\'' +
+                ", updatedAt=" + updatedAt +
+                '}';
     }
 }

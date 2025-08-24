@@ -147,7 +147,7 @@ public class CardController {
                     )
             )
     })
-    @PutMapping("/delete")
+    @DeleteMapping("/delete")
     public ResponseEntity<ResponseDto> deleteCardDetails(@RequestParam
                                                              @Pattern(regexp = "$|[0-9]{10}", message = "Mobile number must be 10 digit")
                                                              String mobileNumber){
