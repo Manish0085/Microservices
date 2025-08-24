@@ -22,7 +22,7 @@ public class BaseEntity {
 
     @CreatedBy
     @Column(updatable = false)
-    private String createdBy;
+    private String craetedBy;
 
     @LastModifiedDate
     @Column(insertable = false)
@@ -41,11 +41,11 @@ public class BaseEntity {
     }
 
     public String getCraetedBy() {
-        return createdBy;
+        return craetedBy;
     }
 
-    public void setCraetedBy(String createdBy) {
-        this.createdBy = createdBy;
+    public void setCraetedBy(String craetedBy) {
+        this.craetedBy = craetedBy;
     }
 
     public LocalDateTime getUpdatedAt() {

@@ -6,9 +6,9 @@ public interface ICardService {
 
     void createCard(String mobileNumber);
 
-    CardDto fetchCardDetails(String mobileNumber);
+    CardDto fetachCardDetails(String mobileNumber);
 
     boolean updateCard(CardDto cardDto);
 
-    boolean deleteCard(String mobileNumber);
+    boolean deleleCard(String mobileNumber);
 }

@@ -23,7 +23,7 @@ public class CardDto {
 
 
     @NotEmpty(message = "Card Number cannot be null or empty")
-    @Pattern(regexp = "$|[0-9]{12}", message = "CardNumber must be 12 digits")
+    @Pattern(regexp = "$|[0-9]{10}", message = "CardNumber must be 12 digits")
     @Schema(
             description = "Card Number of Customer", example = "100646930341"
     )
