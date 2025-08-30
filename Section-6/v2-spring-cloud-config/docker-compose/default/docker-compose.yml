@@ -4,7 +4,7 @@ services:
     image: rabbitmq:3.12-management
     hostname: rabbitmq
     ports:
-      - "5672:5762"
+      - "5672:5672"
       - "15672:15672"
     healthcheck:
       test: rabbitmq-diagnostics check_port_connectivity
@@ -70,8 +70,7 @@ services:
       service: microservice-configserver-config
     environment:
       SPRING_APPLICATION_NAME: cards
-      SPRING_CONFIG_IMPORT: "configserver:http://configserver:8071/"
-      SPRING_PROFILES_ACTIVE: default
+
 
 
 networks:

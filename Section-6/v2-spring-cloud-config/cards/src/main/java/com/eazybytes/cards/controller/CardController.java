@@ -45,7 +45,7 @@ public class CardController {
     }
 
 
-    @Value("${build.version}")
+    @Value("${build.version:0.0.1-SNAPSHOT}")
     private String buildInfo;
 
     @Autowired
