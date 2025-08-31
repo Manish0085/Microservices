@@ -53,7 +53,7 @@ endpoints:
 
 eureka:
   instance:
-    hostname: "eurekaserver"
+    preferIpAddress: true
   client:
     fetchRegistry: true
     registerWithEureka: true
