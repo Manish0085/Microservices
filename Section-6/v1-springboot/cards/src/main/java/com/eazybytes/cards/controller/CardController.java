@@ -26,7 +26,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import javax.smartcardio.Card;
 
 @Tag(
         name = "CRUD REST APIs for Cards in EazyBank",

@@ -75,10 +75,20 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+<!--				<configuration>-->
+<!--					<image>-->
+<!--						<name>manishk57107/${project.artifactId}:s6</name>-->
+<!--					</image>-->
+<!--				</configuration>-->
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.2</version>
 				<configuration>
-					<image>
-						<name>manishk57107/${project.artifactId}:s6</name>
-					</image>
+					<to>
+						<image>manishk57107/${project.artifactId}:s6</image>
+					</to>
 				</configuration>
 			</plugin>
 		</plugins>
