@@ -6,7 +6,7 @@ public interface ICustomerService {
 
 
 
-    CustomerDetailsDto fetchCustomerDetails(String mobileNumber);
+    CustomerDetailsDto fetchCustomerDetails(String mobileNumber, String correlationId);
 
 
 

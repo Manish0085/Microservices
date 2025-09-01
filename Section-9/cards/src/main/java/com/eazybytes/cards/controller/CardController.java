@@ -16,6 +16,8 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import org.hibernate.annotations.OptimisticLock;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -37,6 +39,9 @@ import javax.smartcardio.Card;
 @RequestMapping(value = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
 @Validated
 public class CardController {
+
+
+    private static final Logger logger = LoggerFactory.getLogger(CardController.class);
 
     private ICardService iCardService;
 
@@ -100,9 +105,10 @@ public class CardController {
             )
     })
     @GetMapping("/fetch")
-    public ResponseEntity<CardDto> fetchCardDetails(@RequestParam
-                                                        @Pattern(regexp = "$|[0-9]{10}", message = "Mobile number must be 10 digit")
+    public ResponseEntity<CardDto> fetchCardDetails(@RequestHeader("eazybank-correlation-id") String correlationId,
+            @RequestParam @Pattern(regexp = "$|[0-9]{10}", message = "Mobile number must be 10 digit")
                                                         String mobileNumber){
+        logger.debug("eazyBank-correlation-id found: {}", correlationId);
         CardDto cardDto = iCardService.fetachCardDetails(mobileNumber);
         return ResponseEntity
                 .status(HttpStatus.OK)
