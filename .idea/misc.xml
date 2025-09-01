@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Section-2/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-2/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-2/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-4/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-4/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-4/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-6/v1-springboot/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-6/v1-springboot/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-6/v1-springboot/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-6/v2-spring-cloud-config/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-7/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-7/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-7/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-7/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-8/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-8/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-8/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-8/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Section-8/eurekaserver/eurekaserver/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

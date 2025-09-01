@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for loans (2)" enabled="true">
+        <sourceOutputDir name="../../../Section-2/loans/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../Section-2/loans/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="loans (2)" />
+      </profile>
+      <profile name="Annotation profile for cards (3)" enabled="true">
+        <sourceOutputDir name="../../../Section-2/cards/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../Section-2/cards/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="cards (3)" />
+      </profile>
+      <profile name="Annotation profile for loans (3)" enabled="true">
+        <sourceOutputDir name="../../../Section-2/loans/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../Section-2/loans/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="loans (3)" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaserver" />
+        <module name="configserver (1)" />
+        <module name="configserver" />
+        <module name="configserver (2)" />
+      </profile>
+      <profile name="Annotation profile for cards (4)" enabled="true">
+        <sourceOutputDir name="../../Section-6/v2-spring-cloud-config/cards/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Section-6/v2-spring-cloud-config/cards/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="cards (4)" />
+      </profile>
+      <profile name="Annotation profile for loans (4)" enabled="true">
+        <sourceOutputDir name="../../Section-6/v1-springboot/loans/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Section-6/v1-springboot/loans/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="loans (4)" />
+      </profile>
+      <profile name="Annotation profile for cards (5)" enabled="true">
+        <sourceOutputDir name="../../Section-6/v2-spring-cloud-config/cards/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Section-6/v2-spring-cloud-config/cards/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="cards (5)" />
+      </profile>
+      <profile name="Annotation profile for loans (5)" enabled="true">
+        <sourceOutputDir name="../../Section-7/loans/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Section-7/loans/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="loans (5)" />
+      </profile>
+      <profile name="Annotation profile for accounts (5)" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="accounts (5)" />
+      </profile>
+      <profile name="Annotation profile for cards" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="cards" />
+        <module name="cards (1)" />
+        <module name="cards (2)" />
+        <module name="accounts (1)" />
+        <module name="loans" />
+        <module name="accounts" />
+      </profile>
+      <profile name="Annotation profile for loans" enabled="true">
+        <sourceOutputDir name="../../Section-2/loans/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Section-2/loans/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="loans (1)" />
+      </profile>
+      <profile name="Annotation profile for accounts" enabled="true">
+        <sourceOutputDir name="../../../Section-2/accounts/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../Section-2/accounts/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="accounts (2)" />
+      </profile>
+      <profile name="Annotation profile for accounts (3)" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="accounts (3)" />
+      </profile>
+      <profile name="Annotation profile for accounts (4)" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="accounts (4)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="accounts" options="-parameters" />
+      <module name="accounts (1)" options="-parameters" />
+      <module name="accounts (2)" options="-parameters" />
+      <module name="accounts (3)" options="-parameters" />
+      <module name="accounts (4)" options="-parameters" />
+      <module name="accounts (5)" options="-parameters" />
+      <module name="cards" options="-parameters" />
+      <module name="cards (1)" options="-parameters" />
+      <module name="cards (2)" options="-parameters" />
+      <module name="cards (3)" options="-parameters" />
+      <module name="cards (4)" options="-parameters" />
+      <module name="cards (5)" options="-parameters" />
+      <module name="configserver" options="-parameters" />
+      <module name="configserver (1)" options="-parameters" />
+      <module name="configserver (2)" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="loans" options="-parameters" />
+      <module name="loans (1)" options="-parameters" />
+      <module name="loans (2)" options="-parameters" />
+      <module name="loans (3)" options="-parameters" />
+      <module name="loans (4)" options="-parameters" />
+      <module name="loans (5)" options="-parameters" />
+    </option>
+  </component>
+</project>
