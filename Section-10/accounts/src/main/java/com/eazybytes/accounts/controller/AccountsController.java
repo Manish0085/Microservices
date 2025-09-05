@@ -249,6 +249,7 @@ public class AccountsController {
                     )
             )
     })
+
     @GetMapping("/contact-info")
     public ResponseEntity<AccountsContactInfoDto> getContactInfo(){
         return ResponseEntity
