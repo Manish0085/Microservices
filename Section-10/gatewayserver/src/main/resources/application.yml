@@ -43,7 +43,7 @@ logging:
         gatewayserver: DEBUG
 
 
-resilience4jcircuitbreaker:
+resilience4j.circuitbreaker:
   configs:
     default:
       slidingWindowSize: 10
