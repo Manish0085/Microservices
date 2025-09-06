@@ -45,7 +45,20 @@ management:
       probes:
         enabled: true
 
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
 encrypt:
   key: "Z9pH3jKxX4L6dP0uS1Bq8d9F5gN4rQmT2lVxYb+e7cA="
+
+logging:
+  level:
+    com:
+      eazybytes:
+        cards: DEBUG
+
+  pattern:
+    level: "%5p[${spring.application.name},%X{trace_id},%X{span_id}]"
 
 
