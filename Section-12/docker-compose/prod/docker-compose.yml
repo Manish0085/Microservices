@@ -228,7 +228,7 @@ services:
       service: network-deploy-service
 
   configserver:
-    image: "eazybytes/configserver:s12"
+    image: "manishk57107/configserver:s12"
     container_name: configserver-ms
     ports:
       - "8071:8071"
@@ -245,7 +245,7 @@ services:
       OTEL_SERVICE_NAME: "configserver"
 
   eurekaserver:
-    image: "eazybytes/eurekaserver:s12"
+    image: "manishk57107/eurekaserver:s12"
     container_name: eurekaserver-ms
     ports:
       - "8070:8070"
@@ -266,7 +266,7 @@ services:
       OTEL_SERVICE_NAME: "eurekaserver"
 
   accounts:
-    image: "eazybytes/accounts:s12"
+    image: "manishk57107/accounts:s12"
     container_name: accounts-ms
     depends_on:
       configserver:
@@ -287,7 +287,7 @@ services:
       service: microservice-eureka-config
 
   loans:
-    image: "eazybytes/loans:s12"
+    image: "manishk57107/loans:s12"
     container_name: loans-ms
     depends_on:
       configserver:
@@ -308,7 +308,7 @@ services:
       service: microservice-eureka-config
 
   cards:
-    image: "eazybytes/cards:s12"
+    image: "manishk57107/cards:s12"
     container_name: cards-ms
     depends_on:
       configserver:
@@ -329,7 +329,7 @@ services:
       service: microservice-eureka-config
 
   gatewayserver:
-    image: "eazybytes/gatewayserver:s12"
+    image: "manishk57107/gatewayserver:s12"
     container_name: gatewayserver-ms
     ports:
       - "8072:8072"
