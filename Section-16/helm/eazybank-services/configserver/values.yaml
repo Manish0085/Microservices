@@ -1,20 +1,20 @@
-deployment: loans-deployment
-serviceName: loans
-appLabel: loans
-appName: loans
+deployment: configserver-deployment
+serviceName: configserver
+appLabel: configserver
+appName: configserver
 
 replicaCount: 1
 
 image:
-  repository: manishk57107/loans
+  repository: manishk57107/configserver
   tag: s14
 
-containerPort: 8070
+containerPort: 8071
 
 service:
   type: ClusterIp
-  port: 8070
-  targetPort: 8070
+  port: 8071
+  targetPort: 8071
 
 appname_enabled: true
 profile_enabled: true
