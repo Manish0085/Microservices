@@ -1,20 +1,20 @@
-deployment: loans-deployment
-serviceName: loans
-appLabel: loans
-appName: loans
+deployment: eurekaserver-deployment
+serviceName: eurekaserver
+appLabel: eurekaserver
+appName: eurekaserver
 
 replicaCount: 1
 
 image:
-  repository: manishk57107/loans
+  repository: manishk57107/eurekaserver
   tag: s14
 
-containerPort: 8090
+containerPort: 8070
 
 service:
   type: ClusterIp
-  port: 8090
-  targetPort: 8090
+  port: 8070
+  targetPort: 8070
 
 appname_enabled: true
 profile_enabled: true
