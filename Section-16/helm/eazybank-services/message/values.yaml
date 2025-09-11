@@ -17,9 +17,9 @@ service:
   targetPort: 9010
 
 appname_enabled: true
-profile_enabled: true
-config_enabled: true
-eureka_enabled: true
+profile_enabled: false
+config_enabled: false
+eureka_enabled: false
 resourceserver_enabled: false
-otel_enabled: true
-kafka_enabled: false
+otel_enabled: false
+kafka_enabled: true
