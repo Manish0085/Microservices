@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.4</version>
-		<relativePath/>
+		<groupId>com.eazybytes</groupId>
+		<artifactId>eazy-bom</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../eazy-bom/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.eazybytes</groupId>
@@ -18,11 +18,7 @@
 	<description>Microservice for Accounts</description>
 	<packaging>jar</packaging>
 
-	<properties>
-		<java.version>17</java.version>
-		<spring-cloud.version>2025.0.0</spring-cloud.version>
-		<otelVersion>1.27.0</otelVersion>
-	</properties>
+
 
 	<dependencies>
 		<!-- Spring Boot starters -->
@@ -45,7 +41,7 @@
 		<dependency>
 			<groupId>io.opentelemetry.javaagent</groupId>
 			<artifactId>opentelemetry-javaagent</artifactId>
-			<version>${otelVersion}</version>
+			<version>${otel.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 
@@ -54,6 +50,7 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
+			<version>${h2.version}</version>
 		</dependency>
 
 		<!-- Lombok -->
@@ -61,11 +58,13 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+			<version>${lombok.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>io.micrometer</groupId>
 			<artifactId>micrometer-registry-prometheus</artifactId>
+			<version>${micrometer.version}</version>
 		</dependency>
 		<!-- Devtools -->
 		<dependency>
@@ -96,7 +95,7 @@
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-			<version>2.8.9</version>
+			<version>${spring-doc.version}</version>
 			<!-- You can bump to 2.8.10+ when available -->
 		</dependency>
 
@@ -111,11 +110,7 @@
 <!--		</dependency>-->
 
 		<!-- Tests -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -128,17 +123,7 @@
 
 	</dependencies>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+
 
 
 	<build>
@@ -173,10 +158,10 @@
 			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
-				<version>3.4.2</version>
+				<version>${jib.version}</version>
 				<configuration>
 					<to>
-						<image>manishk57107/${project.artifactId}:s14</image>
+						<image>manishk57107/${project.artifactId}:${image.tag}</image>
 					</to>
 				</configuration>
 			</plugin>
