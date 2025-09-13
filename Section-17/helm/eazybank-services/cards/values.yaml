@@ -1,0 +1,25 @@
+deployment: cards-deployment
+serviceName: cards
+appLabel: cards
+appName: cards
+
+replicaCount: 1
+
+image:
+  repository: manishk57107/cards
+  tag: s14
+
+containerPort: 9000
+
+service:
+  type: ClusterIp
+  port: 9000
+  targetPort: 9000
+
+appname_enabled: true
+profile_enabled: true
+config_enabled: true
+eureka_enabled: true
+resourceserver_enabled: false
+otel_enabled: true
+kafka_enabled: false
