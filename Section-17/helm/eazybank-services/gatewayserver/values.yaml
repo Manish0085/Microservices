@@ -7,7 +7,7 @@ replicaCount: 1
 
 image:
   repository: manishk57107/gatewayserver
-  tag: s14
+  tag: s17
 
 containerPort: 8072
 

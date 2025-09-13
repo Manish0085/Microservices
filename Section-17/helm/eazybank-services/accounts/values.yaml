@@ -3,11 +3,11 @@ serviceName: accounts
 appLabel: accounts
 appName: accounts
 
-replicaCount: 1
+replicaCount: 2
 
 image:
   repository: manishk57107/accounts
-  tag: s14
+  tag: s17
 
 containerPort: 8080
 
