@@ -24,6 +24,11 @@ spring:
       ddl-auto: update
     show-sql: true
 
+  cloud:
+    kubernetes:
+      discovery:
+        all-namespaces: true
+
   config:
     import: "optional:configserver:http://localhost:8071/"
 
@@ -66,14 +71,6 @@ endpoints:
   shutdown:
     enabled: true
 
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    fetchRegistry: true
-    registerWithEureka: true
-    serviceUrl:
-      defaultZone: http://localhost:8070/eureka/
 
 
 info:

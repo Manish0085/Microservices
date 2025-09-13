@@ -7,15 +7,17 @@ spring:
 
   cloud:
     gateway:
-      server:
-        webflux:
-          discovery:
-            locator:
-              enabled: true
-              lower-case-service-id: true
-          httpclient:
-            connect-timeout: 2000
-            response-timeout: 5s
+      httpclient:
+        connect-timeout: 2000
+        response-timeout: 5s
+    kubernetes:
+      discovery:
+        enabled: true
+        all-namespaces: true
+    discovery:
+      client:
+        health-indicator:
+          enabled: false
 
   data:
     redis:

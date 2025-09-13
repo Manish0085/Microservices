@@ -19,6 +19,11 @@ spring:
       ddl-auto: update
     show-sql: true
 
+  cloud:
+    kubernetes:
+      discovery:
+        all-namespaces: true
+
   h2:
     console:
       enabled: true
@@ -59,15 +64,6 @@ management:
     tags:
       application: ${spring.application.name}
 
-
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    fetchRegistry: true
-    registerWithEureka: true
-    serviceUrl:
-      defaultZone: http://localhost:8070/eureka/
 
 
 info:

@@ -1,6 +1,5 @@
 package com.eazybytes.accounts.service.impl;
 
-import com.eazybytes.accounts.constants.CustomerController;
 import com.eazybytes.accounts.dto.AccountsDto;
 import com.eazybytes.accounts.dto.CardDto;
 import com.eazybytes.accounts.dto.CustomerDetailsDto;
